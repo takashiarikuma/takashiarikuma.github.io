@@ -12,7 +12,7 @@ Did you know that you can create object classes from an xml or json file?
 
 Steps:
 
-1. Copy in the clipboard the xml or json file.
+1. Copy the xml or json file to the clipboard.
 
 ![Copy to clipboard](/assets/2023/10/05/CopyToClipboard.png)
 
