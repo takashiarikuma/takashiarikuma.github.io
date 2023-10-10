@@ -1,0 +1,118 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Takashi Arikuma</title>
+  <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
+  <updated>2023-10-10T21:55:54+09:00</updated>
+  <author>
+    <name>Takashi Arikuma</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2023 Takashi Arikuma </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Visual Studio Trick #1 - Create a class for XML or JSON</title>
+    <link href="http://localhost:4000/posts/visual-studio-trick001/" rel="alternate" type="text/html" title="Visual Studio Trick #1 - Create a class for XML or JSON" />
+    <published>2023-10-05T00:00:00+09:00</published>
+  
+    <updated>2023-10-05T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/visual-studio-trick001/</id>
+    <content src="http://localhost:4000/posts/visual-studio-trick001/" />
+    <author>
+      <name>Takashi Arikuma</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Did you know that you can create object classes from an xml or json file?
+
+Steps:
+
+
+  Copy the xml or json file to the clipboard.
+
+
+
+
+
+  Select “Edit” menu and then select “Paste Special”.
+
+
+
+
+
+  Select “Paste XML As Classes” or “Paste JSON As Classes”.
+
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DataFlex</title>
+    <link href="http://localhost:4000/posts/dataflex/" rel="alternate" type="text/html" title="DataFlex" />
+    <published>2023-10-01T00:00:00+09:00</published>
+  
+    <updated>2023-10-01T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/dataflex/</id>
+    <content src="http://localhost:4000/posts/dataflex/" />
+    <author>
+      <name>Takashi Arikuma</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+What is DataFlex?
+
+DataFlex is an advanced software development tool for building Web, Mobile, and Windows database applications.
+Developed by Data Access Worldwide, it combines rapid development with well-organized, reusable, and maintainable code.
+There are More than 1 million users on DataFlex.
+
+Main features include:
+
+  Supports many relational database environments: Microsoft SQL Server,...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
