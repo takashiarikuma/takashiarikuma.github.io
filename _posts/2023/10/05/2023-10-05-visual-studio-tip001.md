@@ -23,3 +23,5 @@ Steps:
 3. Select "Paste XML As Classes" or "Paste JSON As Classes".
 
 ![Result](/assets/2023/10/05/Result.png)
+
+So you have it, an auto-generated class by Visual Studio. It's simple!!!
