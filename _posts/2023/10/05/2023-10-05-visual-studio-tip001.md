@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visual Studio Trick #1 - Create a class for XML or JSON"
+title: "Visual Studio Tip #1 - Create a class for XML or JSON"
 date: 2023-10-05
 last_modified_at: false
 tags: [Visual Studio]
