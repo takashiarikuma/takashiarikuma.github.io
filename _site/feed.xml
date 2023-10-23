@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Takashi Arikuma</title>
   <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
-  <updated>2023-10-10T21:55:54+09:00</updated>
+  <updated>2023-10-23T10:58:31+09:00</updated>
   <author>
     <name>Takashi Arikuma</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,65 @@
 
   
   <entry>
-    <title>Visual Studio Trick #1 - Create a class for XML or JSON</title>
-    <link href="http://localhost:4000/posts/visual-studio-trick001/" rel="alternate" type="text/html" title="Visual Studio Trick #1 - Create a class for XML or JSON" />
+    <title>Create a Struct from a Table</title>
+    <link href="http://localhost:4000/posts/create-struct-for-a-table/" rel="alternate" type="text/html" title="Create a Struct from a Table" />
+    <published>2023-10-23T00:00:00+09:00</published>
+  
+    <updated>2023-10-23T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/create-struct-for-a-table/</id>
+    <content src="http://localhost:4000/posts/create-struct-for-a-table/" />
+    <author>
+      <name>Takashi Arikuma</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Structs in DataFlex can created simple. As example:
+
+Struct tWebAppServerProps
+    String  Key
+    Date    CreateDate
+    String  CreateTime
+    Date    ExpiresDate
+    String  ExpiresTime
+    Integer Locked
+    Date    LockedDate
+    String  LockedTime
+    Integer Page
+    Integer Pages
+    String  Data
+End_Struct 
+
+It’s simple. Right?
+But what if you have to create a structure for a table w...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Visual Studio Tip #1 - Create a class for XML or JSON</title>
+    <link href="http://localhost:4000/posts/visual-studio-tip001/" rel="alternate" type="text/html" title="Visual Studio Tip #1 - Create a class for XML or JSON" />
     <published>2023-10-05T00:00:00+09:00</published>
   
     <updated>2023-10-05T00:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/visual-studio-trick001/</id>
-    <content src="http://localhost:4000/posts/visual-studio-trick001/" />
+    <id>http://localhost:4000/posts/visual-studio-tip001/</id>
+    <content src="http://localhost:4000/posts/visual-studio-tip001/" />
     <author>
       <name>Takashi Arikuma</name>
     </author>
@@ -65,6 +116,8 @@ Steps:
 
 
 
+
+So you have it, an auto-generated class by Visual Studio. It’s simple!!!
 
     </summary>
   

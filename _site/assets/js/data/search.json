@@ -1,8 +1,25 @@
 [
   
   {
-    "title": "Visual Studio Trick #1 - Create a class for XML or JSON",
-    "url": "/posts/visual-studio-trick001/",
+    "title": "Create a Struct from a Table",
+    "url": "/posts/create-struct-for-a-table/",
+    "categories": "",
+    "tags": "DataFlex",
+    "date": "2023-10-23 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "Structs in DataFlex can created simple. As example:Struct tWebAppServerProps    String  Key    Date    CreateDate    String  CreateTime    Date    ExpiresDate    String  ExpiresTime    Integer Lock...",
+    "content": "Structs in DataFlex can created simple. As example:Struct tWebAppServerProps    String  Key    Date    CreateDate    String  CreateTime    Date    ExpiresDate    String  ExpiresTime    Integer Locked    Date    LockedDate    String  LockedTime    Integer Page    Integer Pages    String  DataEnd_Struct It’s simple. Right?But what if you have to create a structure for a table with many columns?DataFlex incorporate a Query Tester that allows to script SQL queries like in Microsoft SQL Server Management Studio and generates the Struct automatically.  First open the Query Tester.  Write the SQL query for a requested table.  Then press Struct generator that creates the follow:Struct tWebAppSession    { Name=\"SessionKey\" }    String  sSessionKey    { Name=\"CreateDate\" }    Date    dCreateDate    { Name=\"CreateTime\" }    String  sCreateTime    { Name=\"LastAccessDate\" }    Date    dLastAccessDate    { Name=\"LastAccessTime\" }    String  sLastAccessTime    { Name=\"UseCount\" }    Integer iUseCount    { Name=\"RemoteAddress\" }    String  sRemoteAddress    { Name=\"LoginName\" }    String  sLoginName    { Name=\"Active\" }    String  sActiveEnd_Struct or disabling Use type prefix:Struct tWebAppSession    String  SessionKey    Date    CreateDate    String  CreateTime    Date    LastAccessDate    String  LastAccessTime    Integer UseCount    String  RemoteAddress    String  LoginName    String  ActiveEnd_Struct "
+  },
+  
+  {
+    "title": "Visual Studio Tip #1 - Create a class for XML or JSON",
+    "url": "/posts/visual-studio-tip001/",
     "categories": "",
     "tags": "Visual Studio",
     "date": "2023-10-05 00:00:00 +0900",
@@ -14,7 +31,7 @@
 
     
     "snippet": "Did you know that you can create object classes from an xml or json file?Steps:  Copy the xml or json file to the clipboard.  Select “Edit” menu and then select “Paste Special”.  Select “Paste XML ...",
-    "content": "Did you know that you can create object classes from an xml or json file?Steps:  Copy the xml or json file to the clipboard.  Select “Edit” menu and then select “Paste Special”.  Select “Paste XML As Classes” or “Paste JSON As Classes”."
+    "content": "Did you know that you can create object classes from an xml or json file?Steps:  Copy the xml or json file to the clipboard.  Select “Edit” menu and then select “Paste Special”.  Select “Paste XML As Classes” or “Paste JSON As Classes”.So you have it, an auto-generated class by Visual Studio. It’s simple!!!"
   },
   
   {
