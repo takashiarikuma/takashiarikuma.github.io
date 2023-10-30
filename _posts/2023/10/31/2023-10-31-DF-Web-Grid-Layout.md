@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New DataFlex Web Grid Layou"
+title: "New DataFlex Web Grid Layout"
 date: 2023-10-31
 last_modified_at: false
 tags: DataFlex

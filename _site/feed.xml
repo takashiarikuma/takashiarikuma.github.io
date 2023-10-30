@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Takashi Arikuma</title>
   <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
-  <updated>2023-10-30T23:41:06+09:00</updated>
+  <updated>2023-10-31T06:55:34+09:00</updated>
   <author>
     <name>Takashi Arikuma</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,41 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>New DataFlex Web Grid Layout</title>
+    <link href="http://localhost:4000/posts/DF-Web-Grid-Layout/" rel="alternate" type="text/html" title="New DataFlex Web Grid Layout" />
+    <published>2023-10-31T00:00:00+09:00</published>
+  
+    <updated>2023-10-31T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/DF-Web-Grid-Layout/</id>
+    <content src="http://localhost:4000/posts/DF-Web-Grid-Layout/" />
+    <author>
+      <name>Takashi Arikuma</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+DataFlex 23.0 introduces for Web Applications a new layout called Grid Layout. Typical Web pages are single axis oriented design based on Flexible Box Layout. The new Grid Layout is optimized for 2 a dimensional layout. In simple words, the Grid Layout allows to control the vertical position of a control in the page.
+To use this new layout type, simple change the peLayoutType web property to ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>

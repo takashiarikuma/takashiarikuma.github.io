@@ -51,27 +51,27 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="DataFlex" />
+<meta property="og:title" content="New DataFlex Web Grid Layout" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Takashi Arikuma Software Engineer C# DataFlex SQL Server" />
 <meta property="og:description" content="Takashi Arikuma Software Engineer C# DataFlex SQL Server" />
-<link rel="canonical" href="http://localhost:4000/posts/dataflex/" />
-<meta property="og:url" content="http://localhost:4000/posts/dataflex/" />
+<link rel="canonical" href="http://localhost:4000/posts/DF-Web-Grid-Layout/" />
+<meta property="og:url" content="http://localhost:4000/posts/DF-Web-Grid-Layout/" />
 <meta property="og:site_name" content="Takashi Arikuma" />
 <meta property="og:image" content="http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-10-01T00:00:00+09:00" />
+<meta property="article:published_time" content="2023-10-31T00:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta property="twitter:image" content="http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg" />
-<meta property="twitter:title" content="DataFlex" />
+<meta property="twitter:title" content="New DataFlex Web Grid Layout" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-01T00:00:00+09:00","datePublished":"2023-10-01T00:00:00+09:00","description":"Takashi Arikuma Software Engineer C# DataFlex SQL Server","headline":"DataFlex","image":"http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/dataflex/"},"url":"http://localhost:4000/posts/dataflex/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-31T00:00:00+09:00","datePublished":"2023-10-31T00:00:00+09:00","description":"Takashi Arikuma Software Engineer C# DataFlex SQL Server","headline":"New DataFlex Web Grid Layout","image":"http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/DF-Web-Grid-Layout/"},"url":"http://localhost:4000/posts/DF-Web-Grid-Layout/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>DataFlex | Takashi Arikuma
+  <title>New DataFlex Web Grid Layout | Takashi Arikuma
   </title>
 
   <!--
@@ -452,7 +452,7 @@
         
           
             
-              <span>DataFlex</span>
+              <span>New DataFlex Web Grid Layout</span>
             
 
           
@@ -754,7 +754,7 @@
 
 
 <header>
-  <h1 data-toc-skip>DataFlex</h1>
+  <h1 data-toc-skip>New DataFlex Web Grid Layout</h1>
 
   <div class="post-meta text-muted">
     <!-- published date -->
@@ -770,13 +770,13 @@
 
 <time
   
-  data-ts="1696086000"
+  data-ts="1698678000"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Oct  1, 2023
+  Oct 31, 2023
 </time>
 
     </span>
@@ -830,9 +830,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="400 words"
+  title="165 words"
 >
-  <em>2 min</em> read</span>
+  <em>1 min</em> read</span>
 
     </div>
     <!-- .d-flex -->
@@ -843,22 +843,17 @@
 <div class="content">
   <p><a href="/assets/images/DataFlex.png" class="popup img-link left"><img data-src="/assets/images/DataFlex.png" alt="DataFlex"  class="lazyload" data-proofer-ignore></a></p>
 
-<h1 id="what-is-dataflex">What is DataFlex?</h1>
+<p>DataFlex 23.0 introduces for Web Applications a new layout called Grid Layout. Typical Web pages are single axis oriented design based on Flexible Box Layout. The new Grid Layout is optimized for 2 a dimensional layout. In simple words, the Grid Layout allows to control the vertical position of a control in the page.
+To use this new layout type, simple change the peLayoutType web property to ltGrid on web container objects:</p>
 
-<p>DataFlex is an advanced software development tool for building Web, Mobile, and Windows database applications.
-Developed by Data Access Worldwide, it combines rapid development with well-organized, reusable, and maintainable code.
-There are More than 1 million users on DataFlex.</p>
+<figure class="highlight"><pre><code class="language-dataflex" data-lang="dataflex">    Object oWebMainPanel is a cWebPanel
+        Set piColumnCount to 16
+        Set peLayoutType to ltGrid
+        Set psRowHeights to "0/175 1/240 2/75 3/75"</code></pre></figure>
 
-<p>Main features include:</p>
-<ul>
-  <li>Supports many relational database environments: Microsoft SQL Server, IBM DB2, Oracle, PostgreSQL, MySQL, and any ODBC database. DataFlex’s multi-level architecture abstracts an application’s database from its business rules and user interfaces.</li>
-  <li>Switch between database backends without code changes. Optional “Connectivity Kits” include a set of database drivers that allow applications to be deployed on key industry databases such as Microsoft SQL Server, IBM DB2, MySQL, Amazon Aurora, MariaDB and generic ODBC data sources. As requirements change, a database or data source can be changed or added by simply installing the appropriate database driver(s).</li>
-  <li>Fullstack platform to develop applications from UI to database. With one language, one Studio, one framework and one place to manage business rules for all environments, DataFlex is easier to learn and less complex to use. The comprehensive, carefully designed technical aspects of the DataFlex platform lead to more productive developers, reduced project and maintenance time and lower costs.</li>
-  <li>Manage business rules with Data Dictionaries. In DataFlex, business rules that centrally define table relationships and manage database operations are contained in “Data Dictionaries,” a core component of the application framework. They validate all database operations to ensure data quality and integrity. They also enforce UI consistency by defining data’s default visual representation across all devices. Changes made to Data Dictionaries propagate throughout web, mobile and Windows apps. With DataFlex Data Dictionaries, building and maintaining applications is faster and easier and data quality is maintained.</li>
-  <li>A framework for business applications. The DataFlex framework is a complete, integrated, skeletal structure of a business application. Its resources include database connectivity, a business rules repository, data-aware user interface controls and more for web, mobile and Windows environments. With just one framework, developers are more efficient and write less code so they build and maintain more applications faster. The language is an object-oriented programming language that is high-level, readable and easy to learn. The power of the language is that it is uniquely designed to harness the productivity of the DataFlex business application framework to develop reliable, high-performance business applications with less code.</li>
-</ul>
+<p>On the previous code the columns are set to 16. This is not changed from previous versions. The new property peLayoutType is set to ltGrid which allows to set the layout to grid and psRowHeights contains the detail of each row height (px). Row 0 is 175px, row 1 is 240px, row 2 is 75px, row 3 is 75px.</p>
 
-<p>If you want to know more about DataFlex, do not hesitate to contact me.</p>
+<p>When pgLayoutType is set to ltInherit the container will take the parent layout type.</p>
 
 </div>
 
@@ -909,7 +904,7 @@ There are More than 1 million users on DataFlex.</p>
     
       
       <a
-        href="https://twitter.com/intent/tweet?text=DataFlex%20-%20Takashi%20Arikuma&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdataflex%2F"
+        href="https://twitter.com/intent/tweet?text=New%20DataFlex%20Web%20Grid%20Layout%20-%20Takashi%20Arikuma&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FDF-Web-Grid-Layout%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Twitter"
@@ -922,7 +917,7 @@ There are More than 1 million users on DataFlex.</p>
     
       
       <a
-        href="https://www.facebook.com/sharer/sharer.php?title=DataFlex%20-%20Takashi%20Arikuma&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdataflex%2F"
+        href="https://www.facebook.com/sharer/sharer.php?title=New%20DataFlex%20Web%20Grid%20Layout%20-%20Takashi%20Arikuma&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FDF-Web-Grid-Layout%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Facebook"
@@ -935,7 +930,7 @@ There are More than 1 million users on DataFlex.</p>
     
       
       <a
-        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Fdataflex%2F&text=DataFlex%20-%20Takashi%20Arikuma"
+        href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FDF-Web-Grid-Layout%2F&text=New%20DataFlex%20Web%20Grid%20Layout%20-%20Takashi%20Arikuma"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Telegram"
@@ -1093,31 +1088,31 @@ There are More than 1 million users on DataFlex.</p>
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1131,6 +1126,49 @@ There are More than 1 million users on DataFlex.</p>
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/dataflex/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+    class="small"
+  
+  data-ts="1696086000"
+  data-df="ll"
+  
+>
+  Oct  1, 2023
+</time>
+
+              <h4 class="pt-0 my-2">DataFlex</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  
+
+What is DataFlex?
+
+DataFlex is an advanced software development tool for building Web, Mobile, and Windows database applications.
+Developed by Data Access Worldwide, it combines rapid development...
+                </p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/create-struct-for-a-table/" class="post-preview card h-100">
@@ -1167,54 +1205,13 @@ There are More than 1 million users on DataFlex.</p>
 
 Structs in DataFlex can created simple. As example:
 
-{% highlight DataFlex %}
-
 Struct tWebAppServerProps
     String  Key
     Date    CreateDate
     String  CreateTime
     Date    ExpiresDate
-    ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/DF-Web-Grid-Layout/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-    class="small"
-  
-  data-ts="1698678000"
-  data-df="ll"
-  
->
-  Oct 31, 2023
-</time>
-
-              <h4 class="pt-0 my-2">New DataFlex Web Grid Layout</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  
-
-DataFlex 23.0 introduces for Web Applications a new layout called Grid Layout. Typical Web pages are single axis oriented design based on Flexible Box Layout. The new Grid Layout is optimized for...
+    String  ExpiresTime
+    In...
                 </p>
               </div>
             </div>
@@ -1235,19 +1232,19 @@ DataFlex 23.0 introduces for Web Applications a new layout called Grid Layout. T
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Older">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/visual-studio-tip002-compare-databases/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>Visual Studio Tip #2 - Compare Databases Schemas</p>
+    </a>
   
 
   
-    <a
-      href="/posts/visual-studio-tip001/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>Visual Studio Tip #1 - Create a class for XML or JSON</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
