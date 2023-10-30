@@ -53,20 +53,20 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Visual Studio Tip #2 - Compare Databases Schemas" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="Developing a database backend application can be tricky." />
-<meta property="og:description" content="Developing a database backend application can be tricky." />
+<meta name="description" content="Developing a database backend application and maintaining the schema between environments can be tricky if you have no access to modify it. For example, developers have access to the development environment but can’t modify the test environment. There are excellent tools from Devart and Reg-Gate, but they are not free." />
+<meta property="og:description" content="Developing a database backend application and maintaining the schema between environments can be tricky if you have no access to modify it. For example, developers have access to the development environment but can’t modify the test environment. There are excellent tools from Devart and Reg-Gate, but they are not free." />
 <link rel="canonical" href="http://localhost:4000/posts/visual-studio-tip002-compare-databases/" />
 <meta property="og:url" content="http://localhost:4000/posts/visual-studio-tip002-compare-databases/" />
 <meta property="og:site_name" content="Takashi Arikuma" />
-<meta property="og:image" content="http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg" />
+<meta property="og:image" content="http://localhost:4000/assets/images/visual-studio-logo.webp" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2023-10-30T00:00:00+09:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg" />
+<meta property="twitter:image" content="http://localhost:4000/assets/images/visual-studio-logo.webp" />
 <meta property="twitter:title" content="Visual Studio Tip #2 - Compare Databases Schemas" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-30T00:00:00+09:00","datePublished":"2023-10-30T00:00:00+09:00","description":"Developing a database backend application can be tricky.","headline":"Visual Studio Tip #2 - Compare Databases Schemas","image":"http://localhost:4000/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/visual-studio-tip002-compare-databases/"},"url":"http://localhost:4000/posts/visual-studio-tip002-compare-databases/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-10-30T00:00:00+09:00","datePublished":"2023-10-30T00:00:00+09:00","description":"Developing a database backend application and maintaining the schema between environments can be tricky if you have no access to modify it. For example, developers have access to the development environment but can’t modify the test environment. There are excellent tools from Devart and Reg-Gate, but they are not free.","headline":"Visual Studio Tip #2 - Compare Databases Schemas","image":"http://localhost:4000/assets/images/visual-studio-logo.webp","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/visual-studio-tip002-compare-databases/"},"url":"http://localhost:4000/posts/visual-studio-tip002-compare-databases/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -716,7 +716,7 @@
       
 
       <div class="mt-3 mb-3">
-        <a href="/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg" class="popup img-link preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3C/svg%3E" data-src="/assets/images/dataflex_studio_faded.jpg.1356x526.2.jpg"  alt="Preview Image" width="1200" height="630"  class="lazyload" data-proofer-ignore></a></div>
+        <a href="/assets/images/visual-studio-logo.webp" class="popup img-link preview-img shimmer"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3C/svg%3E" data-src="/assets/images/visual-studio-logo.webp"  alt="Preview Image" width="1200" height="630"  class="lazyload" data-proofer-ignore></a></div>
     
 
     <div class="d-flex justify-content-between">
@@ -754,7 +754,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="26 words"
+  title="124 words"
 >
   <em>1 min</em> read</span>
 
@@ -765,13 +765,11 @@
 </header>
 
 <div class="content">
-  <p>Developing a database backend application can be tricky.</p>
+  <p>Developing a database backend application and maintaining the schema between environments can be tricky if you have no access to modify it. For example, developers have access to the development environment but can’t modify the test environment. There are excellent tools from Devart and Reg-Gate, but they are not free.</p>
 
-<p>-At CI/CD cycle the changes doesn’t translate to the different environments.</p>
+<p>Visual Studio contains a SQL Server Schema Comparison tool. Make sure have installed the SQL Server Data Tools. The option is at Tools -&gt; SQL Server -&gt; New Schema Comparison.</p>
 
-<p>-dfsdfs.</p>
-
-<p>Visual Studio containt a SQL Server.</p>
+<p>You can compare a source schema with a target schema to determine the differences between them. Then you can update the target schema to match the source schema for the database objects you select. Also, you can generate the script for an update script.</p>
 
 </div>
 

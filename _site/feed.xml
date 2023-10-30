@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Takashi Arikuma</title>
   <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
-  <updated>2023-10-30T22:01:01+09:00</updated>
+  <updated>2023-10-30T22:33:28+09:00</updated>
   <author>
     <name>Takashi Arikuma</name>
     <uri>http://localhost:4000/</uri>
@@ -44,14 +44,9 @@
 
 
 
-      Developing a database backend application can be tricky.
+      Developing a database backend application and maintaining the schema between environments can be tricky if you have no access to modify it. For example, developers have access to the development environment but can’t modify the test environment. There are excellent tools from Devart and Reg-Gate, but they are not free.
 
--At CI/CD cycle the changes doesn’t translate to the different environments.
-
--dfsdfs.
-
-Visual Studio containt a SQL Server.
-
+Visual Studio contains a SQL Server Schema Comparison tool. Make sure have ...
     </summary>
   
 
