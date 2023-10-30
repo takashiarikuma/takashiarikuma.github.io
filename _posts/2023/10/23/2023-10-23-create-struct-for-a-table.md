@@ -13,6 +13,7 @@ image:
 Structs in DataFlex can created simple. As example:
 
 {% highlight DataFlex %}
+
 Struct tWebAppServerProps
     String  Key
     Date    CreateDate
@@ -25,7 +26,8 @@ Struct tWebAppServerProps
     Integer Page
     Integer Pages
     String  Data
-End_Struct 
+End_Struct
+
 {% endhighlight %}
 
 It's simple. Right?
@@ -36,6 +38,7 @@ DataFlex incorporate a Query Tester that allows to script SQL queries like in Mi
 2. Write the SQL query for a requested table.
 3. Then press Struct generator that creates the follow:
 {% highlight DataFlex %}
+
 Struct tWebAppSession
     { Name="SessionKey" }
     String  sSessionKey
@@ -55,10 +58,12 @@ Struct tWebAppSession
     String  sLoginName
     { Name="Active" }
     String  sActive
-End_Struct 
+End_Struct
+
 {% endhighlight %}
 or disabling Use type prefix:
 {% highlight DataFlex %}
+
 Struct tWebAppSession
     String  SessionKey
     Date    CreateDate
@@ -69,5 +74,6 @@ Struct tWebAppSession
     String  RemoteAddress
     String  LoginName
     String  Active
-End_Struct 
+End_Struct
+
 {% endhighlight %}

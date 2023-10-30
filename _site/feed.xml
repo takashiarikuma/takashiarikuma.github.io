@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Takashi Arikuma</title>
   <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
-  <updated>2023-10-30T22:33:28+09:00</updated>
+  <updated>2023-10-30T23:41:06+09:00</updated>
   <author>
     <name>Takashi Arikuma</name>
     <uri>http://localhost:4000/</uri>
@@ -94,10 +94,10 @@ Struct tWebAppServerProps
     Integer Page
     Integer Pages
     String  Data
-End_Struct 
+End_Struct
 
 It’s simple. Right?
-But what if you have to create a structure for a table w...
+But what if you have to create a structure for a table wi...
     </summary>
   
 
