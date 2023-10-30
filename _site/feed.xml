@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Takashi Arikuma</title>
   <subtitle>Takashi Arikuma Software Engineer C# DataFlex SQL Server</subtitle>
-  <updated>2023-10-23T10:58:31+09:00</updated>
+  <updated>2023-10-30T22:01:01+09:00</updated>
   <author>
     <name>Takashi Arikuma</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,45 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Visual Studio Tip #2 - Compare Databases Schemas</title>
+    <link href="http://localhost:4000/posts/visual-studio-tip002-compare-databases/" rel="alternate" type="text/html" title="Visual Studio Tip #2 - Compare Databases Schemas" />
+    <published>2023-10-30T00:00:00+09:00</published>
+  
+    <updated>2023-10-30T00:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/visual-studio-tip002-compare-databases/</id>
+    <content src="http://localhost:4000/posts/visual-studio-tip002-compare-databases/" />
+    <author>
+      <name>Takashi Arikuma</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Developing a database backend application can be tricky.
+
+-At CI/CD cycle the changes doesn’t translate to the different environments.
+
+-dfsdfs.
+
+Visual Studio containt a SQL Server.
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -100,21 +139,21 @@ But what if you have to create a structure for a table w...
 Steps:
 
 
-  Copy the xml or json file to the clipboard.
+  
+    Copy the xml or json file to the clipboard.
 
+    
+  
+  
+    Select “Edit” menu and then select “Paste Special”.
 
+    
+  
+  
+    Select “Paste XML As Classes” or “Paste JSON As Classes”.
 
-
-
-  Select “Edit” menu and then select “Paste Special”.
-
-
-
-
-
-  Select “Paste XML As Classes” or “Paste JSON As Classes”.
-
-
+    
+  
 
 
 So you have it, an auto-generated class by Visual Studio. It’s simple!!!

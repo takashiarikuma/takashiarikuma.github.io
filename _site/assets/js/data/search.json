@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Visual Studio Tip #2 - Compare Databases Schemas",
+    "url": "/posts/visual-studio-tip002-compare-databases/",
+    "categories": "",
+    "tags": "Visual Studio",
+    "date": "2023-10-30 00:00:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "Developing a database backend application can be tricky.-At CI/CD cycle the changes doesn’t translate to the different environments.-dfsdfs.Visual Studio containt a SQL Server.",
+    "content": "Developing a database backend application can be tricky.-At CI/CD cycle the changes doesn’t translate to the different environments.-dfsdfs.Visual Studio containt a SQL Server."
+  },
+  
+  {
     "title": "Create a Struct from a Table",
     "url": "/posts/create-struct-for-a-table/",
     "categories": "",
@@ -30,8 +47,8 @@
 
 
     
-    "snippet": "Did you know that you can create object classes from an xml or json file?Steps:  Copy the xml or json file to the clipboard.  Select “Edit” menu and then select “Paste Special”.  Select “Paste XML ...",
-    "content": "Did you know that you can create object classes from an xml or json file?Steps:  Copy the xml or json file to the clipboard.  Select “Edit” menu and then select “Paste Special”.  Select “Paste XML As Classes” or “Paste JSON As Classes”.So you have it, an auto-generated class by Visual Studio. It’s simple!!!"
+    "snippet": "Did you know that you can create object classes from an xml or json file?Steps:      Copy the xml or json file to the clipboard.            Select “Edit” menu and then select “Paste Special”.      ...",
+    "content": "Did you know that you can create object classes from an xml or json file?Steps:      Copy the xml or json file to the clipboard.            Select “Edit” menu and then select “Paste Special”.            Select “Paste XML As Classes” or “Paste JSON As Classes”.      So you have it, an auto-generated class by Visual Studio. It’s simple!!!"
   },
   
   {
