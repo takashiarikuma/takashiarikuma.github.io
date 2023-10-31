@@ -62,4 +62,4 @@ On the previous code the columns are set to 16. This is not changed from previou
 
 When pgLayoutType is set to ltInherit the container will take the parent layout type.
 
-    ![Result](/assets/2023/10/31/GridLayoutTest.png)
+![Result](/assets/2023/10/31/GridLayoutTest.png)
